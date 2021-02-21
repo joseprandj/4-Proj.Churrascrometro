@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Sofia', cursive;}
+
+body{
+    background-color: rgb(255, 69, 0, 0.69);
+    color: black;}
+
+.container{
+    width: 100% ;
+    max-width: 400px;}
+
+#adult, #child, #time{
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 250px;
+    box-sizing: border-box;}
+
+.calc{
+    padding: 5px;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;}
+
+.containerList{
+    margin-top: 7%;
+    width: 100%;
+    max-width: 330px;}
+
+li{
+    display: inline-block;}
+
+#infRef{
+    text-align: left;
+    float: left;
+    margin-left: 36.5%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;}
+
+.refList{
+    display: inline-block;
+    font-size: 15px;}
+
+#positionChurrascometro{
+    float: right;}
+
+.h1Ref{
+    text-align: left;
+    font-size: 30px;}
+
+.h2Ref{
+    font-size: 20px;
+    padding-top: 10px;}
+
+#resultP{
+    font-size: 30px;
+    padding-bottom: 5px;}
+
+#mainTop{
+    position: absolute;
+    text-align: left;
+    margin-left: 1%;
+    width: 100%;
+    max-width: 430px;}
+
+#imgChurrasqueira{
+    height: 200px;
+    margin-left: calc(100% - 90%)}
+
+#adendo{
+    max-width: 450px;
+    text-align: left;
+    margin-left: -1%;}
+
+@media screen and (max-width: 1200px){
+    
+    #infRef{
+        margin-left: 36%;}
+
+    #adendo{
+        font-size: 15px;
+        max-width: 420px;}
+
+    .containerList{
+        margin-top: 2%;
+        margin-left: 1%;}
+
+    .container{
+        width: 100% ;
+        margin-left: 1%;
+        max-width: 400px;}
+}
+
+    
+@media screen and (max-width: 400px){
+
+    .container{
+        margin-left: 2%;    }
+        
+    .containerList{
+        margin-top: 2px;
+        margin-left: 2%}
+    
+    #infRef{
+        border: none;
+        margin-left:2%;
+        margin-bottom:2%;}
+        
+    #positionChurrascometro{
+        margin-top: 95%;}
+        
+    #imgChurrasqueira{
+        height: 200px;
+        margin-left: 2%}
+     
+    #mainTop{
+        font-size: 15.5px;}    
+
+    #adendo{
+        font-size: 15px;
+        margin-left: 1%;width: 100%;
+        max-width: 350px;}
+
+}

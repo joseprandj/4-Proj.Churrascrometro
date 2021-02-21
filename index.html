@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="icon" href="./icon/fire.png">
+</head>
+
+<body>
+    
+    <div id="positionChurrascometro">
+
+        <div class="container">
+
+            <h1>Churrascômetro</h1> 
+
+            <input type="number" id="adult" name="adult" placeholder="Adultos">
+            <input type="number" id="child" name="child" placeholder="Crianças">
+         <input type="number" id="time" name="time" placeholder="Duração em Horas">
+
+            <button onclick="calc()" class="calc">Calcular</button>
+
+        </div>
+
+        <div class="containerList">
+            <ul id="result" >
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div id="infRef">
+
+        <h1 class="h1Ref">Referência do Cálculo</h1>
+
+        <h2 class="h2Ref">Referência por Pessoa :</h2>
+        <img src="./icon/bife.png" alt="bife"> <p class="refList">Carne - 400g</p>
+        <br>
+        <img src="./icon/cerveja.png" alt="cerveja">
+        <p class="refList">Cerveja - 4 Latinhas de 350ml</p> 
+        <br>
+        <img src="./icon/refri.png" alt="refri">
+        <p class="refList">Bebidas (Refrigerante, Àgua)  - 1 Litro</p>
+        <br>
+        <img src="./icon/child.png" alt="child">
+        <p class="refList">Criança - 200g de Carne / 500ml de Bebida</p>
+        <br>
+        <h2 class="h2Ref">Acima de 6 Horas :</h2>
+        <img src="./icon/bife.png" alt="bife">
+        <p class="refList">Carne - 650g</p>
+        <br>
+        <img src="./icon/cerveja.png" alt="cerveja">
+        <p class="refList">Cerveja - 6 Latinhas de 350ml</p>
+        <br>
+        <img src="./icon/refri.png" alt="refri">
+        <p class="refList">Bebidas (Refrigerante, Àgua)  - 1,5 Litro</p>
+        <br>
+        <img src="./icon/child.png" alt="child">
+        <p class="refList">Criança - 325g de Carne / 750ml de Bebida</p>
+    </div>
+    
+    <div id="mainTop">
+
+        <h1>Faça seu Churrasco</h1>
+        <img id="imgChurrasqueira" src="./image/churrasqueira.png" alt="churrasqueira">
+
+        <h1>Compre a quantidade certa</h1>
+
+        <p id="adendo">* Pode ser utilizado a referência "acima de 6 horas" para quando há somente o consumo de carne, sem acompanhamento.</p>
+
+    </div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
